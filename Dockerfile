@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bullseye
+FROM registry.access.redhat.com/ubi9/python-39:1-117.1684741281
 
 RUN groupadd -r pyuser && useradd -r -g pyuser pyuser
 
